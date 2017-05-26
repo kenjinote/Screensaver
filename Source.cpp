@@ -1,4 +1,4 @@
-#pragma comment(linker,"\"/manifestdependency:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' processorArchitecture='*' publicKeyToken='6595b64144ccf1df' language='*'\"")
+Ôªø#pragma comment(linker,"\"/manifestdependency:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' processorArchitecture='*' publicKeyToken='6595b64144ccf1df' language='*'\"")
 
 #pragma comment(lib, "scrnsavw")
 #pragma comment(lib, "comctl32")
@@ -52,8 +52,8 @@ class Setting {
 	DWORD m_nSpeed;
 public:
 	Setting() : m_nFontSize(20), m_nCountLimit(1000), m_nSpeed(1000){
-		lstrcpy(m_szText, TEXT("Åö"));
-		lstrcpy(m_szFont, TEXT("ÉÅÉCÉäÉI"));
+		lstrcpy(m_szText, TEXT("‚òÖ"));
+		lstrcpy(m_szFont, TEXT("„É°„Ç§„É™„Ç™"));
 	}
 	void Load() {
 		HKEY hKey;
